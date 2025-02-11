@@ -68,6 +68,8 @@ zsh-syntax-highlighting
 # Post install scripts:
 %post
 
+systemctl disable NetworkManager-wait-online
+
 cat > /etc/modprobe.d/blacklist-rpi.conf << EOF
 blacklist brcmfmac
 EOF
