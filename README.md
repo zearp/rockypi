@@ -30,7 +30,7 @@ Login and password for the sudo enabled default user is ```rocky/rocky``` unless
 arm_boost=1
 disable_overscan=1
 dtparam=audio=off
-gpu=16
+gpu_mem=16
 framebuffer_height=720
 framebuffer_width=1280
 ```
